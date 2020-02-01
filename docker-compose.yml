@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  etm:
+    build: .
+    command: bin/run
