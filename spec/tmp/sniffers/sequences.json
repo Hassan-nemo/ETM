@@ -1,0 +1,26 @@
+[
+  {
+    "route_id": 1,
+    "node_time_id": 1
+  },
+  {
+    "route_id": 1,
+    "node_time_id": 2
+  },
+  {
+    "route_id": 1,
+    "node_time_id": 3
+  },
+  {
+    "route_id": 2,
+    "node_time_id": 4
+  },
+  {
+    "route_id": 2,
+    "node_time_id": 3
+  },
+  {
+    "route_id": 3,
+    "node_time_id": 9
+  }
+]
