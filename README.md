@@ -1,5 +1,7 @@
 # Etm
 
+[![Build Status](https://travis-ci.org/assenvic/ETM.svg?branch=master)](https://travis-ci.org/assenvic/ETM)
+
 Client side Implementation for the matrix 
 
 ## Installation

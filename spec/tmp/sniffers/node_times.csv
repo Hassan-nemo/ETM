@@ -1,0 +1,5 @@
+"node_time_id", "start_node", "end_node", "duration_in_milliseconds"
+"1", "lambda", "tau", "1000"
+"2", "tau", "psi", "1000"
+"3", "psi", "omega", "1000"
+"4", "lambda", "psi", "1000"
