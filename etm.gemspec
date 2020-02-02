@@ -27,4 +27,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_dependency 'dry-struct', '~> 1.2'
   spec.add_dependency 'dry-types', '~> 1.2', '>= 1.2.2'
+  spec.add_dependency 'faraday', '~> 1.0'
+  spec.add_dependency 'zipruby', '~> 0.3.6'
 end
