@@ -1,6 +1,4 @@
-FROM ruby:2.6-alpine
-
-RUN apk update
+FROM ruby:2.6
 
 RUN mkdir /etm
 WORKDIR /etm

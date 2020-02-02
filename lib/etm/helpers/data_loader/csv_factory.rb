@@ -17,7 +17,8 @@ module Etm
           CSV.foreach(path,
                       headers: true,
                       liberal_parsing: true,
-                      col_sep: ', ') do |row|
+                      col_sep: ', ',
+                      encoding: 'windows-1251:utf-8') do |row|
             rows << symbolize(row.to_hash)
           end
           rows
