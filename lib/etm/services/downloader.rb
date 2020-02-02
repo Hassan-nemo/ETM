@@ -13,7 +13,9 @@ module Etm
       end
 
       def execute
+        Etm::LOGGER.info('Downloading all data points...')
         download
+        Etm::LOGGER.info('Download Done Succefully!')
       end
 
       private

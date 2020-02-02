@@ -20,7 +20,8 @@ module Etm
       private
 
       def imnport(route_param)
-        terminal.post(path: ROUTES, params: route_param)
+        response = terminal.post(path: ROUTES, params: route_param)
+        Etm::LOGGER.info(response)
       end
     end
   end

@@ -38,7 +38,7 @@ module Etm
           request.body = JSON.generate(params)
         end
 
-        response.success? ? true : handle_error(response)
+        response.success? ? handle_response(response) : handle_error(response)
       end
 
       private
