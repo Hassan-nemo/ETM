@@ -5,4 +5,4 @@ require 'rubygems'
 require 'bundler/setup'
 require './lib/etm'
 
-puts Etm::VERSION
+Etm.escape_the_matrix!
