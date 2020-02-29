@@ -53,7 +53,7 @@ GEM
     ice_nine (0.11.2)
     minitest (5.14.0)
     multipart-post (2.1.1)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -80,7 +80,7 @@ DEPENDENCIES
   bundler (~> 2.0)
   etm!
   factory_bot (~> 5.1, >= 5.1.1)
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
